@@ -5,7 +5,7 @@ body{
     padding: 0;
 }
 .Header{
-    background-color: blue;
+    background-color: rgb(15, 15, 60);
     margin-top: -22px;
     padding: 5px;
     display: flex;
@@ -13,6 +13,7 @@ body{
 .left{
     width: 40%;
     padding: 20px;
+    display: flex;
 }
 .right{
     text-align: left;
@@ -167,7 +168,7 @@ body{
   justify-content: space-between;
   padding: 4px;
   line-height: 1.5rem;
-  background-color: blue;
+  background-color: rgb(6, 6, 47);
   color: bisque; 
 }
  .links{
