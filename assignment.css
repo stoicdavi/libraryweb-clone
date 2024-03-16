@@ -9,6 +9,7 @@ body{
     margin-top: -22px;
     padding: 5px;
     display: flex;
+    height: 130px;
 }
 .left{
     width: 40%;
