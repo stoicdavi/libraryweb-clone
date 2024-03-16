@@ -30,7 +30,13 @@ body{
 .right{
     text-align: left;
     padding: 20px;
-    color: black;
+}
+#rid{
+  display: flex;
+}
+#rid img{
+  height: 100%;
+  width: 100%;
 }
 
 .navbar {
