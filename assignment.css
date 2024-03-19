@@ -17,6 +17,7 @@ body{
     display: flex;
     color: white;
 }
+.right
 .left .right h1,h2{
   text-align: center;
   font-size: 2.4rem;;
@@ -33,10 +34,6 @@ body{
 }
 #rid{
   display: flex;
-}
-#rid img{
-  height: 100%;
-  width: 100%;
 }
 
 .navbar {
@@ -75,7 +72,7 @@ body{
   text-decoration: none;
 }
 .background-photo {
-    background-image: url('slide1.jpg'); 
+    background-image: url('images/slide1.jpg'); 
     background-size: cover;
     background-position: center;
     height: 500px; 
