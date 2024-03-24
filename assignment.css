@@ -270,17 +270,26 @@ body{
 
     display: block;
     flex-direction: column;
-
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    min-width: 160px;
+    z-index: 1000; /* Ensure the dropdown appears on top */
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   .Header{
     display: flex;
     flex-direction: column;
     font-size: 0.5rem;
   }
- .navbar{
-   display: grid;
-   grid-template-columns: 1fr;
-   font-size: 1rem;
+  .navbar {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
  }
   .container1 {
     display: grid;
