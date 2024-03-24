@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
     background-color: white;
     font-family: Arial, sans-serif;
@@ -73,7 +76,7 @@ body{
   text-decoration: none;
 }
 #background-photo {
-    background-image: url('images/slide1.jpg'); 
+    transition: background-image 2s ease-in-out; 
     background-size: cover;
     background-position: center;
     height: 500px; 
@@ -83,12 +86,13 @@ body{
     display: flex;
     font-size: 1.5rem;
     line-height: 2rem;
+    padding: 0 10px 5px 10px;
     
   }
   .myloft li{
     list-style-type: square;
-    margin-left: 20px;
-    line-height: 3rem;
+    margin: 0 0 10px 60px;
+    line-height: 2rem;
   }
   .myloft .left1{
     width: 70%;
@@ -114,7 +118,7 @@ body{
     margin-left: 70px;
     
   }
-  .logtolib p a{
+  .logtolib a{
     color: white;
     text-decoration: none;
   }
@@ -160,7 +164,27 @@ body{
     display: flex;
   
     gap:20px;
-    padding: 5px;
+    padding: 20px;
+  }
+  .statistics
+  {
+    padding: 20px;
+    height: 350px;
+    display: block;
+  }
+  .statistics h2{
+    text-align: center;
+    color: rgb(122, 42, 42);
+    margin: 0 0 0 0;
+  }
+  .statistics img{
+    width: 100%;
+    height: 50%;
+  }
+  .container1{
+    gap: 20px;
+    background-color: white;
+    width: 100%;
   }
   .libitems {
     width: 100%;
@@ -171,7 +195,7 @@ body{
 
   .libitems img{
     width: 100%;
-    height: 78%;
+    height: 68%;
   }
   .item1, .item2, .item3{
     border: 1px solid black;
@@ -181,7 +205,8 @@ body{
   display: flex;
   justify-content: space-between;
   background-color: burlywood;
-  padding: 20px;
+  padding: 0 30px 0 30px;
+
  }
  .footer{
   display: flex;
