@@ -15,12 +15,12 @@ body{
     height: 130px;
 }
 .left{
-    width: 40%;
+    width: auto;
     padding: 20px;
     display: flex;
     color: white;
 }
-.right
+
 .left .right h1,h2{
   text-align: center;
   font-size: 2.4rem;;
@@ -34,6 +34,7 @@ body{
 .right{
     text-align: left;
     padding: 20px;
+    display: inline-block;
 }
 #rid{
   display: flex;
@@ -265,8 +266,16 @@ body{
 }
 /* responsive design - make the statistics items stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  .navbar li{
+
+    display: block;
+    flex-direction: column;
+
+  }
   .Header{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
   }
   .navbar{
     display: grid;
@@ -300,8 +309,9 @@ body{
   }
   .video{
     display: grid;
-    width: 100%;
+    width: 80%;
   }
+
   .campuses{
     display: block;
     width: 100%;
