@@ -308,7 +308,7 @@ body{
   }
   .video{
     display: grid;
-    width: 80%;
+    width: 100%;
   }
 
   .campuses{
@@ -318,5 +318,10 @@ body{
   .footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .social-icons li{
+    display: inline-block;
+    color: antiquewhite;
+
   }
 }
