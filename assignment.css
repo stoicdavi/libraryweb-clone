@@ -255,3 +255,59 @@ body{
   color: #007bff; /* Change the hover color as needed */
 }
 
+/* Responsive design - make the menu items stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .navbar li{
+
+    display: block;
+    flex-direction: column;
+  }
+}
+/* responsive design - make the statistics items stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .Header{
+    display: grid;
+  }
+  .navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 0 0 100px 0;
+  }
+  .container1 .item{
+    width: 100%;
+  }
+
+  .libdiary{
+    display: block;
+    width: 100%;
+    margin: 600px 0 0 0;
+  }
+  .libitems{
+    
+    display: grid;
+    
+  }
+  .myloft{
+    display: block;
+    width: 100%;
+  }
+  .video{
+    display: grid;
+    width: 100%;
+  }
+  .campuses{
+    display: block;
+    width: 100%;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
